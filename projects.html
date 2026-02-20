@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Lab | Adam Charof</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="bg-blur-1"></div>
+
+    <nav class="navbar">
+        <div class="logo">Adam<span class="dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#experience">Experience</a></li>
+            <li><a href="projects.html" class="active">Lab</a></li>
+            <li><a href="index.html#contact" class="btn-nav">Hire Me</a></li>
+        </ul>
+        <div class="burger"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <span class="badge" style="margin-bottom: 20px; display:inline-block;">Side Projects</span>
+            <h1>Open Source & <br> Personal <span style="color:var(--primary)">Lab</span>.</h1>
+            <p>Where I experiment with code, build community tools, and break things on Arch Linux.</p>
+        </div>
+    </section>
+
+    <section class="all-projects">
+        <div class="container">
+            <div class="projects-grid-full">
+                <!--
+                <div class="project-card-full">
+                    <div class="p-icon"><i class="fab fa-linux"></i></div>
+                    <h3>My Arch Dotfiles</h3>
+                    <p>Personal ricing configuration for Arch Linux (Hyprland/i3). Optimized for dev workflow and aesthetics.</p>
+                    <div class="tags-mini"><span>Bash</span><span>Lua</span><span>Linux</span></div>
+                    <a href="#" class="card-link">View Config <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                -->
+                <div class="project-card-full">
+                    <div class="p-icon"><i class="fab fa-discord"></i></div>
+                    <h3>Letterboxd Traker</h3>
+                    <p>A Discord bot that automatically posts new Letterboxd diary entries as threads in a forum channel — complete with film title, rating, poster, and review link.</p>
+                    <div class="tags-mini"><span>Python</span><span>Discord.py</span></div>
+                    <a href="https://github.com/AdamchDarkness/Letterboxd-Traker" class="card-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card-full">
+                    <div class="p-icon"><i class="fab fa-youtube"></i></div>
+                    <h3>Tech Content Creation</h3>
+                    <p>Sharing tutorials, coding sessions, and tips on YouTube and Instagram for the dev community.</p>
+                    <div class="tags-mini"><span>Video</span><span>Tutorials</span></div>
+                    <a href="#" class="card-link">Visit Channel <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="project-card-full">
+                    <div class="p-icon"><i class="fa-solid fa-book"></i></div>
+                    <h3>Comics Search</h3>
+                    <p>A full-stack project for managing and searching comics. This project extracts cover images from comics stored on a NAS, indexes comic metadata in Elasticsearch.</p>
+                    <div class="tags-mini"><span>Python</span><span>Laravel</span><span>ElastichSearch</span><span>TypeScript</span><br><span>React</span></div>
+                    <a href="https://github.com/AdamchDarkness/Comics-Search" class="card-link">View Repo <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="project-card-full">
+                    <div class="p-icon"><i class="fa-solid fa-anchor"></i></div>
+                    <h3>Xstream</h3>
+                    <p>Xstrem is a modern, responsive IPTV player. It supports Xtream Codes and M3U links, allowing users to explore Live TV, Movies, and Series with episode-level control.</p>
+                    <div class="tags-mini"><span>Electron</span><span>Tailwind CSS</span></div>
+                    <a href="https://github.com/AdamchDarkness/Xstream" class="card-link">View Repo <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="project-card-full">
+                    <div class="p-icon"><i class="fas fa-globe"></i></div>
+                    <h3>3D Portfolio</h3>
+                    <p>This website! Built to test new CSS glassmorphism effects and transparent video integration.</p>
+                    <div class="tags-mini"><span>HTML/CSS</span><span>Design</span></div>
+                    <a href="#" class="card-link">View Repo <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="social-sidebar" style="position: relative; left: auto; bottom: auto; flex-direction: row; margin-top: 20px;">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p style="margin-top: 20px">&copy; 2026 Adam Charof.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
